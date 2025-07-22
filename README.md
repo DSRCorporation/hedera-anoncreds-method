@@ -2,7 +2,7 @@
 
 The spec repository for the Hedera AnonCreds Method that describes management of AnonCreds resources on [Hedera Consensus Service (HCS)](https://hedera.com/consensus-service).
 
-Read the spec: TODO
+Read the spec: https://dsrcorporation.github.io/hedera-anoncreds-method/
 
 Available implementations of Hedera AnonCreds:
 
