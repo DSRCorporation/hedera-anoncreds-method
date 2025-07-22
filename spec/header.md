@@ -1,7 +1,7 @@
 The Hedera AnonCreds Method<br>v0.1 / Editor's Draft
 ==================
 
-![Hedera Logo](../hedera-logo-wide.jpg)
+![Hedera Logo](https://github.com/DSRCorporation/hedera-anoncreds-method/blob/main/hedera-logo-wide.jpg)
 
 **Specification Status:** EDITORS DRAFT
 
@@ -10,7 +10,7 @@ The Hedera AnonCreds Method<br>v0.1 / Editor's Draft
 **Specification Version:** v0.1 (see [Changelog](#hedera-anoncreds-method-version-changelog))
 
 **Source of Latest Draft:**
-  [https://github.com/hiero-ledger/hedera-anoncreds-method/spec](https://github.com/hiero-ledger/hedera-anoncreds-method/spec)
+  [https://github.com/DSRCorporation/hedera-anoncreds-method/spec](https://github.com/hiero-ledger/hedera-anoncreds-method/spec)
 
 **Previous Versions:**
 - None
