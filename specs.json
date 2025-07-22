@@ -1,0 +1,51 @@
+{
+  "specs": [
+    {
+      "title": "Hedera AnonCreds Method",
+      "spec_directory": "./spec",
+      "markdown_paths": [
+        "header.md",
+        "abstract.md",
+        "definitions.md",
+        "specification.md",
+        "security.md",
+        "references.md",
+        "version.md"
+      ],
+      "source": {
+        "host": "github",
+        "account": "hiero-ledger",
+        "repo": "hedera-anoncreds-method"
+      },
+      "output_path": "./",
+      "logo": "https://raw.githubusercontent.com/hiero-ledger/hedera-anoncreds-method/refs/heads/main/hedera-logo-wide.jpg",
+      "logo_link": "https://github.com/hiero-ledger/hedera-anoncreds-method",
+      "katex": true,
+      "external_specs": [
+        {
+          "anoncreds": {
+            "href": "https://hyperledger.github.io/anoncreds-spec/",
+            "title": "AnonCreds",
+            "rawDate": "2023-01-27",
+            "authors": [
+              "Mike Lodder",
+              "Stephen Curran"
+            ],
+            "status": "Internet Draft"
+          }
+        },
+        {
+          "hcs-1": {
+            "href": "https://hashgraphonline.com/docs/standards/hcs-1/",
+            "title": "HCS-1 Standard: File Data Management with Hedera Consensus Service",
+            "rawDate": "2024-02-19",
+            "authors": [
+              "Michael Kantor"
+            ],
+            "status": "Published Hashgraph Standard"
+          }
+        }
+      ]
+    }
+  ]
+}
