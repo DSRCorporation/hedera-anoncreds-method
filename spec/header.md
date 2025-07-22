@@ -1,7 +1,7 @@
 The Hedera AnonCreds Method<br>v0.1 / Editor's Draft
 ==================
 
-![Hedera Logo](https://github.com/DSRCorporation/hedera-anoncreds-method/blob/main/hedera-logo-wide.jpg)
+![Hedera Logo](https://raw.githubusercontent.com/DSRCorporation/hedera-anoncreds-method/main/hedera-logo-wide.jpg)
 
 **Specification Status:** EDITORS DRAFT
 
@@ -10,7 +10,7 @@ The Hedera AnonCreds Method<br>v0.1 / Editor's Draft
 **Specification Version:** v0.1 (see [Changelog](#hedera-anoncreds-method-version-changelog))
 
 **Source of Latest Draft:**
-  [https://github.com/DSRCorporation/hedera-anoncreds-method/spec](https://github.com/hiero-ledger/hedera-anoncreds-method/spec)
+  [https://github.com/DSRCorporation/hedera-anoncreds-method/spec](https://github.com/DSRCorporation/hedera-anoncreds-method/spec)
 
 **Previous Versions:**
 - None
@@ -20,9 +20,9 @@ The Hedera AnonCreds Method<br>v0.1 / Editor's Draft
 ~ [Renata Toktar](https://github.com/Toktar)
 
 **Participate:**
-~ [GitHub repo](https://github.com/hiero-ledger/hedera-anoncreds-method)
-~ [File an issue](https://github.com/hiero-ledger/hedera-anoncreds-method/issues)
-~ [Commit history](https://github.com/hiero-ledger/hedera-anoncreds-method/commits/main)
+~ [GitHub repo](https://github.com/DSRCorporation/hedera-anoncreds-method)
+~ [File an issue](https://github.com/DSRCorporation/hedera-anoncreds-method/issues)
+~ [Commit history](https://github.com/DSRCorporation/hedera-anoncreds-method/commits/main)
 
 **Implementations:**
 ~ [Hiero DID SDK Python]

@@ -14,7 +14,7 @@
       ],
       "source": {
         "host": "github",
-        "account": "hiero-ledger",
+        "account": "DSRCorporation",
         "repo": "hedera-anoncreds-method"
       },
       "output_path": "./",
