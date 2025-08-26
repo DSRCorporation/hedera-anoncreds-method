@@ -1,10 +1,10 @@
-# Hedera AnonCreds Method
+# Hiero AnonCreds Method
 
-The spec repository for the Hedera AnonCreds Method that describes management of AnonCreds resources on [Hedera Consensus Service (HCS)](https://hedera.com/consensus-service).
+The spec repository for the Hiero AnonCreds Method that describes management of AnonCreds resources on [Hedera Consensus Service (HCS)](https://hedera.com/consensus-service).
 
 Read the spec: https://dsrcorporation.github.io/hedera-anoncreds-method/
 
-Available implementations of Hedera AnonCreds:
+Available implementations of Hiero AnonCreds:
 
 - TypeScript: [Hiero DID SDK JS](https://github.com/hiero-ledger/hiero-did-sdk-js)
 - Python: [Hiero DID SDK Python](https://github.com/hiero-ledger/hiero-did-sdk-python)
@@ -16,7 +16,7 @@ The specification uses [Spec-Up] format. For details on Spec-Up features and fun
 
 ## Abstract
 
-The Hedera AnonCreds Method specification defines how AnonCreds objects should be registered (written) and resolved when rooting them in a Hedera DID.
+The Hiero AnonCreds Method specification defines how AnonCreds objects should be registered (written) and resolved when rooting them in a Hedera DID.
 This specification parallels other DID-specific AnonCreds methods that are registered in the [AnonCreds Methods Registry](https://hyperledger.github.io/anoncreds-methods-registry/).
 
 The specification leverages [HCS-1 standard](https://hashgraphonline.com/docs/standards/hcs-1/) for storing immutable files on Hedera Consensus Service (HCS).

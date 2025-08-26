@@ -1,7 +1,7 @@
 {
   "specs": [
     {
-      "title": "Hedera AnonCreds Method",
+      "title": "Hiero AnonCreds Method",
       "spec_directory": "./spec",
       "markdown_paths": [
         "header.md",

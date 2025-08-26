@@ -1,6 +1,6 @@
 ## Security Considerations
 
-The security model for Hedera AnonCreds Method relies on the inherent security properties of [Hedera DID Method](https://github.com/hashgraph/did-method/blob/master/hedera-did-method-specification.md) and Hedera network (specifically HCS consensus and finality).
+The security model for Hiero AnonCreds Method relies on the inherent security properties of [Hedera DID Method](https://github.com/hashgraph/did-method/blob/master/hedera-did-method-specification.md) and Hedera network (specifically HCS consensus and finality).
 Key considerations include:
 
 - It's mandatory to apply strict control over DID and signing keys by following [DID Security Guidelines](https://www.w3.org/TR/did-core/#security-considerations) and [Hedera DID Method Security section](https://github.com/hashgraph/did-method/blob/master/hedera-did-method-specification.md#4-security-considerations)
