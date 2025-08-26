@@ -1,19 +1,19 @@
-# Hedera AnonCreds Method Specification
+# Hiero AnonCreds Method Specification
 
 ## Overview
 
-The Hedera AnonCreds Method defines how AnonCreds objects ([[ref: Schemas]], [[ref: CredDefs]], [[ref: RevRegDefs]], and [[ref: RevRegEntries]]) are registered (published, written) by a [[ref: DID Controller]] using a Hedera DID, and how others can resolve those objects.
+The Hiero AnonCreds Method defines how AnonCreds objects ([[ref: Schemas]], [[ref: CredDefs]], [[ref: RevRegDefs]], and [[ref: RevRegEntries]]) are registered (published, written) by a [[ref: DID Controller]] using a Hedera DID, and how others can resolve those objects.
 
 The method leverages [[ref: HCS-1 Files]], resources (objects, files) managed on [[ref: Hedera Consensus Service]]. For details on how these resources are managed please see [[spec: HCS-1]].
 
-Initial discussions and proposals for Hedera AnonCreds Method were done in scope of [HIP-762: AnonCreds Verifiable Data Registry](https://hips.hedera.com/hip/hip-762).
+Initial discussions and proposals for Hiero AnonCreds Method were done in scope of [HIP-762: AnonCreds Verifiable Data Registry](https://hips.hedera.com/hip/hip-762).
 While the initial proposal provides a significant part of the general concept for using [[ref: HCS]] as Verifiable Data Registry (VDR) for AnonCreds, this specification contradicts with it in several ways as a result of further considerations.
 
 ### Contradictions with HIP-762
 
 - Initial proposal for HIP-762 references [Cardano AnonCreds Method](https://github.com/roots-id/cardano-anoncreds/blob/main/cardano-anoncred-methods.md) as a base
 - This includes implementation of [DID-Linked Resources](https://wiki.trustoverip.org/display/HOME/DID-Linked+Resources+Specification) approach for identifiers and objects metadata
-- In further discussion of HIP proposal, it was suggested to exclude DID-Linked resources usage from Hedera Anoncreds Method
+- In further discussion of HIP proposal, it was suggested to exclude DID-Linked resources usage from Hiero Anoncreds Method
   - There is a good amount of conceptual reasoning for such decision, but it can be summarized as redundancy comparing to more straightforward use of [[ref: HCS]]
 - An Indy-like identifier format was proposed as alternative: `<did>/<object-family>/<object-family-version>/<object-type>/<object-type-identifier>`
 
@@ -43,7 +43,7 @@ The identifier for each resource has the following format - `<publisher-did>/ano
 - `<object-type>`: AnonCreds object type identifier - `SCHEMA`, `PUBLIC_CRED_DEF` or `REV_REG`
 - `<hcs-topic-id>`: ID of [[ref: HCS Topic]] that should be used to resolve the AnonCreds object, **MUST** be equal to [[ref: HCS-1 File]] Topic ID
 
-Each Hedera AnonCreds object created by an AnonCred Issuer, except for [[ref: AnonCreds RevRegEntry]], is used to build and publish [[ref: HCS-1 File]] payload.
+Each Hiero AnonCreds object created by an AnonCred Issuer, except for [[ref: AnonCreds RevRegEntry]], is used to build and publish [[ref: HCS-1 File]] payload.
 [[ref: HCS Topic]] is created in a process of publishing [[ref: HCS-1 File]] and its Topic ID then used to build a complete object identifier in above-mentioned format.
 That identifier is embedded into other objects (such as issued verifiable credentials) available to other parties (Holders, Verifiers) that need to resolve the object.
 
@@ -57,7 +57,7 @@ The following sections define how each AnonCreds object type is published and re
 
 ### AnonCreds Schema
 
-An [[ref: AnonCreds Schema]] is published to Hedera as [[ref: HCS-1 File]]. The resulting [[ref: Schema]] identifier becomes a part of [[ref: AnonCreds CredDef]] based on this particular [[ref: Schema]].
+An [[ref: AnonCreds Schema]] is published to Hiero as [[ref: HCS-1 File]]. The resulting [[ref: Schema]] identifier becomes a part of [[ref: AnonCreds CredDef]] based on this particular [[ref: Schema]].
 Holders and Verifiers retrieve the [[ref: Schema]] identifier retrieved from a resolved [[ref: AnonCreds CredDef]].
 
 For [[ref: AnonCreds Schema]] identifier:
@@ -113,7 +113,7 @@ Resolved HCS-1 content:
 
 ### AnonCreds CredDef
 
-An [[ref: AnonCreds CredDef]] is published to Hedera as [[ref: HCS-1 File]]. The resulting [[ref: CredDef]] identifier is placed in the verifiable credentials issued by that Issuer.
+An [[ref: AnonCreds CredDef]] is published to Hiero as [[ref: HCS-1 File]]. The resulting [[ref: CredDef]] identifier is placed in the verifiable credentials issued by that Issuer.
 Holders retrieve the [[ref: CredDef]] identifier embedded in an AnonCreds verifiable credential and place the [[ref: CredDef]] identifier into verifiable presentations sent to Verifiers.
 Verifiers retrieve the [[ref: CredDef]] identifier from the presentation to resolve the [[ref: CredDef]].
 
@@ -199,7 +199,7 @@ Resolved HCS-1 content:
 
 ### AnonCreds RevRegDef
 
-An [[ref: AnonCreds RevRegDef]] is published to Hedera as [[ref: HCS-1 File]]. The [[ref: RevRegDef]] identifier is placed in the revocable verifiable credentials issued by its Issuer.
+An [[ref: AnonCreds RevRegDef]] is published to Hiero as [[ref: HCS-1 File]]. The [[ref: RevRegDef]] identifier is placed in the revocable verifiable credentials issued by its Issuer.
 Holders retrieve the [[ref: RevRegDef]] identifier embedded in an AnonCreds verifiable credential issued to them.
 Holders place the [[ref: RevRegDef]] identifier into verifiable presentations sent to Verifiers, who retrieve the [[ref: RevRegDef]] identifier to resolve the [[ref: RevRegDef]].
 
@@ -286,7 +286,7 @@ Resolved HCS-1 content:
 
 ### AnonCreds RevRegEntry
 
-An [[ref: AnonCreds RevRegEntry]] is published to Hedera as HCS message in a separate [[ref: HCS Topic]] linked to corresponding [[ref: RevRegDef]].
+An [[ref: AnonCreds RevRegEntry]] is published to Hiero as HCS message in a separate [[ref: HCS Topic]] linked to corresponding [[ref: RevRegDef]].
 
 [[ref: RevRegEntry]] is an object that contains the "delta" of the revocation registry state (indexes of revoked and/or issued credentials) and the associated accumulator values (previous and current).
 Each [[ref: RevRegEntry]], being a separate HCS message, has a consensus timestamp that can be used for restoring revocation registry state for certain moment in time.

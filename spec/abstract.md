@@ -1,6 +1,6 @@
 ## Abstract
 
-The Hedera AnonCreds Method specification defines how [[spec: AnonCreds]] objects should be registered (written) and resolved when rooting them in a Hedera DID.
+The Hiero AnonCreds Method specification defines how [[spec: AnonCreds]] objects should be registered (written) and resolved when rooting them in a Hedera DID.
 This specification parallels other DID-specific AnonCreds methods that are registered in the [AnonCreds Methods Registry](https://hyperledger.github.io/anoncreds-methods-registry/).
 
 The specification leverages [[spec: HCS-1]] standard for storing immutable files on Hedera Consensus Service (HCS).

@@ -1,4 +1,4 @@
-## Hedera AnonCreds Method Version Changelog
+## Hiero AnonCreds Method Version Changelog
 
 Lists of substantive changes in each version of the specification.
 
