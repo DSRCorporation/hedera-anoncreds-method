@@ -18,7 +18,7 @@
         "repo": "hedera-anoncreds-method"
       },
       "output_path": "./",
-      "logo": "https://raw.githubusercontent.com/DSRCorporation/hedera-anoncreds-method/refs/heads/main/hedera-logo-wide.jpg",
+      "logo": "https://raw.githubusercontent.com/DSRCorporation/hedera-anoncreds-method/refs/heads/main/hiero-logo-wide.jpg",
       "logo_link": "https://github.com/DSRCorporation/hedera-anoncreds-method",
       "katex": true,
       "external_specs": [
