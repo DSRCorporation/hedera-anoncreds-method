@@ -1,7 +1,7 @@
 The Hiero AnonCreds Method<br>v0.1 / Editor's Draft
 ==================
 
-![Hiero Logo](https://raw.githubusercontent.com/DSRCorporation/hedera-anoncreds-method/main/hedera-logo-wide.jpg)
+![Hiero Logo](https://raw.githubusercontent.com/DSRCorporation/hedera-anoncreds-method/main/hiero-logo-wide.jpg)
 
 **Specification Status:** EDITORS DRAFT
 
