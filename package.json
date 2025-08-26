@@ -1,0 +1,25 @@
+{
+  "name": "hedera-anoncreds-method",
+  "version": "0.1.0",
+  "description": "Hiero AnonCreds Method Specification",
+  "scripts": {
+    "edit": "node -e \"require('spec-up')()\"",
+    "render": "node -e \"require('spec-up')({ nowatch: true })\"",
+    "dev": "node -e \"require('spec-up')({ dev: true })\""
+  },
+  "keywords": [
+    "Hiero",
+    "Hedera",
+    "DID",
+    "AnonCreds",
+    "verifiable credentials"
+  ],
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/DSRCorporation/hedera-anoncreds-method/issues"
+  },
+  "homepage": "https://github.com/DSRCorporation/hedera-anoncreds-method/",
+  "devDependencies": {
+    "spec-up": "github:brianorwhatever/spec-up#master"
+  }
+}
